@@ -33,7 +33,7 @@ EOT
 }
 
 resource "aws_iam_role" "role" {
-  name = "s3-access-to-ec2-role"
+  name = "s3-access-to-ec2-5"
 
   assume_role_policy = <<EOF
 {
