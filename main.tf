@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_iam_policy" "policy" {
-  name        = "-policy"
+  name        = "policy"
   description = "My test policy"
 
   policy = <<EOT
