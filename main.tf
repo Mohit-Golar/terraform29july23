@@ -58,7 +58,7 @@ resource "aws_iam_role_policy_attachment" "test-attach" {
 }
 
 resource "aws_iam_instance_profile" "profile" {
-  name = "profile"
+  name = "profile1"
   role = aws_iam_role.role.name
 }
 
